@@ -1,6 +1,7 @@
+#!/usr/bin/env node
 "use strict";
 
-let pipe = require('./pipe.js')
+let pipe = require("../helpers/pipe")
 
 /**
  * 
@@ -14,10 +15,10 @@ let getColor = (colorCode) => `\x1b[${colorCode}%s\x1b[0m`;
  */
 let getColorCode = (colorName) => {
     switch(colorName) {
-        case 'cyan': return '36m';
-        case 'purple': return '35m';
-        case 'red': return '31m';
-        default: return '30m'; //black
+        case "cyan": return "36m";
+        case "purple": return "35m";
+        case "red": return "31m";
+        default: return "30m"; //black
     }
 }
 
