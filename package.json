@@ -1,6 +1,6 @@
 {
   "name": "merely-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Merely server for testing production build localy.",
   "main": "index.js",
   "scripts": {
@@ -16,12 +16,17 @@
     "nodejs-server",
     "server",
     "frontend-server",
-    "js-server"
+    "js-server",
+    "cli-server",
+    "nodejs-cli-server"
   ],
   "author": "Kseniia Korelskaia",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/xenikopa/merely-server/issues"
   },
-  "homepage": "https://github.com/xenikopa/merely-server#readme"
+  "homepage": "https://github.com/xenikopa/merely-server#readme",
+  "bin": {
+    "merely-server": "./src/index.js"
+  }
 }

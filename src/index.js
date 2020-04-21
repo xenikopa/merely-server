@@ -36,7 +36,7 @@ const getStream = response => filename => fs
 const serverCallback = (filename) => (request, response) => getStream(response)(filename).pipe(response);
 
 const showHelp = () => void console.log(`
-Usage: node server [options]
+Usage: merely-server [options]
 
 Options: 
 
@@ -77,9 +77,6 @@ const getFile = pipe(
     }
 );
 
-/**
- * 
- */
 const getHelp = pipe(
     argv => argv.findIndex(x => x === '--help' || x === '-h'),
     index => {
