@@ -8,12 +8,13 @@ This package contains dependency-free NodeJS script to create and start local se
 
 ## Usage
 
+>`npm install -g merely-server`
+>`cd site/path/`
 >`merely-server [options]`
 
 Options: 
 
 - `--port` set port for server. Default value: 8080. Example: `merely-server --port 3000`
-- `--file` set file name for start page. Default value: index.html. Example: `merely-server --file start.html`
 - `--help`, `-h` output usage information
 
 ## Highlights
