@@ -8,9 +8,11 @@ This package contains dependency-free NodeJS script to create and start local se
 
 ## Usage
 
->`npm install -g merely-server`
->`cd site/path/`
->`merely-server [options]`
+```sh
+> npm install -g merely-server
+> cd site/path/
+> merely-server [options]
+```
 
 Options: 
 
